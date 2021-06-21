@@ -1,0 +1,17 @@
+Package: gmaker
+Title: Utilities for writing GNU makefiles
+Date: 2021-06-21
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Takeshi",
+           family = "Abe",
+           role = c("aut", "cre"),
+           email = "tabe@fixedpoint.jp",
+           comment = c(ORCID = "0000-0002-7074-4561"))
+Description: Although running an R script is easy, it can be challenging to build a pipeline consisting of many R command lines for a complex analysis. Leveraging GNU make by writing a makefile, we can automatically resolve the web of dependencies between intermediate byproducts. It also provides an opportunity to exploit the potential parallelism to optimize the speed performance. Utilities in this package are available for preparing a makefile to support the purpose.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/tabe/gmaker
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
